@@ -318,7 +318,7 @@ body,html {
 
   .topic {
     width: 40%;
-    height: auto;
+    height: 300px;
     min-width: unset;
   }
 
@@ -377,3 +377,4 @@ body,html {
   }
 
 }
+
