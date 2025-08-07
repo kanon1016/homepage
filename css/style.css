@@ -3,7 +3,7 @@
 body,html {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: whitesmoke !important;
+  background-color:#452269 !important;
   height: 100%;
   padding:0;
   align-items: center;
@@ -11,13 +11,13 @@ body,html {
 }
 
 .footer {
-  background-color:#D1A980 ;
+  background-color:rgb(208, 186, 255);
 }
 
 
 .navbar {
   display: flex !important;
-  background-color: rgb(142, 175, 72);
+  background-color: rgb(208, 186, 255);
   overflow: visible;
   margin-bottom: 20px;
   justify-content: flex-end !important;
@@ -27,7 +27,7 @@ body,html {
 .navbar a,
 .dropdown .dropbtn {
   font-size: 16px;
-  color: rgb(80, 79, 79);
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -39,7 +39,7 @@ body,html {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #ddd;
+  background-color: rgb(208, 186, 255);
 }
 
 .dropdown {
@@ -50,9 +50,9 @@ body,html {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgb(208, 186, 255);
   min-width: 160px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px rgb(208, 186, 255);
   z-index: 1;
 }
 
@@ -142,7 +142,7 @@ body,html {
   }
 
 .btn2.user{
-  border: 2px solid  rgb(142, 175, 72); 
+  border: 2px solid  #f8b500 ;
   width: 20%;
   height:60%;
   border-radius: 20px !important;
@@ -150,7 +150,7 @@ body,html {
 
 
 .btn2.sns{
-  border: 2px solid #D1A980 ;
+  border: 2px solid#f8b500;
   border-radius: 20px !important;
   width: 20%;
   height: 60%;
@@ -177,12 +177,12 @@ body,html {
 }
 
 .news::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #f8b500;
   border-radius: 4px;
 }
 
 .news::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #d79e00;
 }
 .slider-wrapper {
   display: flex;
@@ -207,7 +207,7 @@ body,html {
 .caption {
   width: 40%;
   height: 100%;
-  background-color: whitesmoke;
+  background-color: #f8b500 ;
   color: black;
   display: flex;
   align-items: center;
@@ -238,7 +238,6 @@ body,html {
 .next { right: 10px; }
 
 
-
 .label {
   display: flex;
   flex-direction: column;  /* 縦方向に並べる */
@@ -249,7 +248,7 @@ body,html {
 
 .label .en {
   font-size: 14px;
-  color:#D1A980;
+  color: #f8b500;
 }
 
 .label .jp {
@@ -284,11 +283,11 @@ body,html {
 }
 
 .btn2.user:hover {
-  background-color: rgb(142, 175, 72);
+  background-color: #f8b500;
 }
 
 .btn2.sns:hover {
-  background-color:  #D1A980;
+  background-color:   #f8b500;
 }
 
 /* ===============================
@@ -317,8 +316,8 @@ body,html {
   }
 
   .topic {
-    width: 45%;
-    height: 200px;
+    width: 40%;
+    height: auto;
     min-width: unset;
   }
 
@@ -377,5 +376,3 @@ body,html {
   }
 
 }
-
-
